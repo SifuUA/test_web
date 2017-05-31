@@ -11,6 +11,10 @@
     <title>$Title$</title>
   </head>
   <body>
-  $END$
+    <h3>Enter your name</h3> <br/>
+      <form action="greetings">
+        <input type="text" name="nickname"/>
+        <input type="submit" value="Submit"/>
+      </form>
   </body>
 </html>
